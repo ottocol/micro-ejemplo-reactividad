@@ -1,0 +1,21 @@
+{
+  "name": "react-compiler-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:sin": "cross-env VITE_SIN_COMPILADOR=1 vite",
+    "build": "vite build",
+    "build:sin": "cross-env VITE_SIN_COMPILADOR=1 vite build"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "vite": "^7.0.0"
+  }
+}
